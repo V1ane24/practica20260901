@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-// 1. Definición de Enums (Agregamos la clave MI_NOMBRE)
+// 1. Definición de Enums 
 const ESTADOS_ENVIO = {
   PENDIENTE: 'PENDIENTE',
   EN_TRANSITO: 'EN_TRANSITO',
@@ -9,7 +9,7 @@ const ESTADOS_ENVIO = {
   MI_NOMBRE: 'VANESSA'
 };
 
-// 2. Diccionario de Vistas (Agregamos la vista con el h3 requerido)
+// 2. Diccionario de Vistas 
 const VISTAS_ESTADO = {
   [ESTADOS_ENVIO.PENDIENTE]: (
     <div style={{ background: '#fff3cd', color: '#856404', padding: '12px', borderRadius: '4px' }}>
@@ -32,7 +32,7 @@ const VISTAS_ESTADO = {
     </div>
   ),
   [ESTADOS_ENVIO.MI_NOMBRE]: (
-    <div style={{ background: '#e2e3e5', color: '#383d41', padding: '12px', borderRadius: '4px' }}>
+    <div style={{ background: '#e2e3e5', color: '#1f93f1', padding: '12px', borderRadius: '4px' }}>
       <h3>INGRID VANESSA CARTAGENA VALDEZ</h3>
     </div>
   )
